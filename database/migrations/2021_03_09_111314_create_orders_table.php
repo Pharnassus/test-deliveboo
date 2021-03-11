@@ -16,6 +16,7 @@ class CreateOrdersTable extends Migration
         Schema::create('orders', function (Blueprint $table) {
             $table->id();
             $table->unsignedBigInteger('restaurant_id');
+            $table->unsignedBigInteger('buyer_id');
             $table->dateTime('order_date');
 
             $table->timestamps();
@@ -23,8 +24,12 @@ class CreateOrdersTable extends Migration
             //relation
             $table->foreign('restaurant_id')
                 ->references('id')   
-                ->on('restaurants');             
-        });
+                ->on('restaurants'); 
+            
+            $table->foreign('buyer_id')
+                ->references('id')   
+                ->on('buyers');             
+            });
     }
 
     /**
