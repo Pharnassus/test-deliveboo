@@ -17,6 +17,7 @@ class CreateRestaurantsTable extends Migration
             $table->id();
             $table->unsignedBigInteger('user_id');
             $table->string('name', 50);          
+            $table->string('slug', 50);      
             $table->string('img');          
             $table->char('p_iva', 11);          
             $table->string('address', 50);      
