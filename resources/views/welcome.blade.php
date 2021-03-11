@@ -32,13 +32,13 @@
         
     </head>
     <body>
-        <div class="container text-center mt-5">
+        {{-- <div class="container text-center mt-5">
             <h1 class="btn btn-success ">Css collegato correttamente</h1>
             <h2>Ciao a tutti</h2>
             <h3>non ne usciremo mai</h3>
             <h4>non ne usciremo mai</h4>
             <h6 class="btn btn-danger ">non ne usciremo mai</h6>
-        </div>
+        </div> --}}
 
 
         <!-- Button trigger modal -->
