@@ -16,7 +16,7 @@
     </head>
     <body>
         <div class="container text-center mt-5">
-            <h1 class="btn btn-success ">Css collegato correttamente CONFERMO</h1>
+            <h1 class="btn btn-success ">Css collegato correttamente</h1>
         </div>
     </body>
 </html>
